@@ -65,7 +65,7 @@ class _SignInPageState extends State<SignInPage> {
 
       child: Form(
         key: _formKey,
-        autovalidateMode: AutovalidateMode.disabled,
+        autovalidateMode: AutovalidateMode.always,
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [

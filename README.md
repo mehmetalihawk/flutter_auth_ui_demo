@@ -1,16 +1,82 @@
-# flutter_auth_ui_demo
+# Flutter Auth UI Demo
 
-A new Flutter project.
+A simple **Flutter authentication UI demo** with:
+- Custom `AuthScaffold` for a clean layout  
+- Form validation (email & password)  
+- Social login buttons (Google, Facebook, Twitter)  
+- Reusable UI components (text fields, primary button)  
+- Light theme with custom tokens and typography  
 
-## Getting Started
+![Demo Screenshot](screenshot.png)(screenshot2.png)
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Features
+- ✅ Clean architecture & reusable widgets
+- ✅ Email & password validation
+- ✅ Toggle password visibility
+- ✅ "Remember me" checkbox
+- ✅ Social login buttons
+- ✅ Fully responsive layout
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Project Structure
+
+```
+lib/
+├── core/
+│   └── theme/
+│       ├── app_theme.dart
+│       ├── tokens.dart
+│       └── typography.dart
+├── features/
+│   └── auth/
+│       └── sign_in_page.dart
+├── widgets/
+│   ├── app_text_field.dart
+│   ├── auth_scaffold.dart
+│   ├── primary_button.dart
+│   └── social_row.dart
+└── main.dart
+```
+
+---
+
+## 🧪 How to Run
+
+1. **Clone the repo**
+```bash
+git clone https://github.com/mehmetalihawk/flutter_auth_ui_demo.git
+cd flutter_auth_ui_demo
+```
+
+2. **Install dependencies**
+```bash
+flutter pub get
+```
+
+3. **Run the app**
+```bash
+flutter run
+```
+
+---
+
+## 📦 Assets
+
+- Fonts: `Muli`
+- Icons: `Google`, `Facebook`, `Twitter` (SVG)
+- Theme tokens are defined in `tokens.dart`.
+
+---
+
+## 📝 Notes
+- Update `pubspec.yaml` if you add more assets.
+- You can replace social icons with your own SVGs.
+- Form validation rules are in `sign_in_page.dart`.
+
+---
+
+## 📄 License
+This project is open source and available under the [MIT License](LICENSE).

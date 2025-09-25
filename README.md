@@ -7,7 +7,8 @@ A simple **Flutter authentication UI demo** with:
 - Reusable UI components (text fields, primary button)  
 - Light theme with custom tokens and typography  
 
-![Demo Screenshot](screenshot.png)(screenshot2.png)
+![Demo Screenshot](screenshot.png)
+![Screenshot 2](screenshot2.png)
 
 ---
 
